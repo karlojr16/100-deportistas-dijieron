@@ -1,0 +1,150 @@
+// Banco oficial de preguntas precargadas para '100 Deportistas Dijeron - Dinastía Ontiveros'
+// Diseñado para la fiesta de Halloween y entrenamientos especiales
+
+export const DEFAULT_QUESTIONS = [
+  {
+    id: "do-1",
+    question: "¿Cuál es la frase que más dice la Maestra Yared o los entrenadores en clase?",
+    category: "Dinastía Ontiveros",
+    answers: [
+      { text: "¿Sale? (Maestra Yared)", points: 38 },
+      { text: "¡Sube la guardia!", points: 27 },
+      { text: "¡¡10 segundos!! (Fin del sparring)", points: 17 },
+      { text: "Gira la cadera", points: 10 },
+      { text: "Respira por la nariz", points: 5 },
+      { text: "¡No se bajen!", points: 3 },
+    ],
+  },
+  {
+    id: "do-2",
+    question: "¿Qué es lo que más se les olvida llevar a los alumnos al entrenamiento?",
+    category: "Dinastía Ontiveros",
+    answers: [
+      { text: "El protector bucal", points: 41 },
+      { text: "Las vendas", points: 26 },
+      { text: "La cinta / tape", points: 14 },
+      { text: "La botella de agua", points: 10 },
+      { text: "La toalla para el sudor", points: 6 },
+      { text: "Las espinilleras / careta", points: 3 },
+    ],
+  },
+  {
+    id: "do-3",
+    question: "¿Cuál es el castigo o ejercicio que más odian que les pongan en la academia?",
+    category: "Dinastía Ontiveros",
+    answers: [
+      { text: "Burpees", points: 43 },
+      { text: "Saltos en escuadra (el castigo tradicional)", points: 29 },
+      { text: "Abdominales en V", points: 15 },
+      { text: "Lagartijas con nudillos", points: 8 },
+      { text: "Round extra de sparring con el profe", points: 5 },
+    ],
+  },
+  {
+    id: "do-4",
+    question: "¿Qué frase o palabra está estrictamente PROHIBIDO decir en el dojo?",
+    category: "Dinastía Ontiveros",
+    answers: [
+      { text: "No puedo", points: 52 },
+      { text: "Ya me cansé", points: 21 },
+      { text: "Me rindo", points: 13 },
+      { text: "¿Cuánto falta para que se acabe?", points: 9 },
+      { text: "Tengo flojera", points: 5 },
+    ],
+  },
+  {
+    id: "do-5",
+    question: "¿Quiénes son los maestros y profes que entrenan en Dinastía Ontiveros?",
+    category: "Dinastía Ontiveros",
+    answers: [
+      { text: "Maestra Yared (Kickboxing)", points: 35 },
+      { text: "Maestra Karlita (Kickboxing)", points: 28 },
+      { text: "Profe Hugo Pérez (Muay Thai)", points: 22 },
+      { text: "Profe Diego (Boxeo)", points: 15 },
+    ],
+  },
+  {
+    id: "do-6",
+    question: "Cosas en la academia que dan más miedo que un monstruo de Halloween",
+    category: "Especial Halloween",
+    answers: [
+      { text: "El olor de las vendas sin lavar en la maleta", points: 38 },
+      { text: "Cuando el profe dice: 'Guarden guantes... tocan burpees'", points: 29 },
+      { text: "Que te toque hacer sparring con el profe", points: 16 },
+      { text: "Que se te caiga el bucal al piso sucio y ponértelo", points: 11 },
+      { text: "Llegar 5 minutos tarde a clase", points: 6 },
+    ],
+  },
+  {
+    id: "do-7",
+    question: "¿Qué monstruo de Halloween sería el mejor peleador en el ring?",
+    category: "Especial Halloween",
+    answers: [
+      { text: "La Momia (viene vendada lista para pelear)", points: 36 },
+      { text: "Frankenstein (peso completo y aguanta todo)", points: 28 },
+      { text: "El Hombre Lobo (agresividad y condición)", points: 18 },
+      { text: "Drácula (esquivas rápidas y buen juego de piernas)", points: 12 },
+      { text: "El Jinete sin Cabeza (imposible de noquear)", points: 6 },
+    ],
+  },
+  {
+    id: "do-8",
+    question: "¿Qué parte del cuerpo duele más al día siguiente de una clase intensa?",
+    category: "Kickboxing & Box",
+    answers: [
+      { text: "Piernas y glúteos (por sentadillas y patadas)", points: 40 },
+      { text: "El abdomen (por los golpes y las 'V')", points: 27 },
+      { text: "Hombros y brazos (de mantener la guardia)", points: 17 },
+      { text: "Espinillas (por bloquear patadas)", points: 11 },
+      { text: "El cuello", points: 5 },
+    ],
+  },
+  {
+    id: "do-9",
+    question: "¿Qué es lo peor que te puede pasar en un round de sparring?",
+    category: "Kickboxing & Box",
+    answers: [
+      { text: "Que te vuelen el protector bucal de un golpe", points: 37 },
+      { text: "Quedarte sin gas/aire al primer minuto", points: 29 },
+      { text: "Que se te desamarre una espinillera o guante", points: 15 },
+      { text: "Resbalarte con el sudor del tatami", points: 12 },
+      { text: "Comerte una patada giratoria", points: 7 },
+    ],
+  },
+  {
+    id: "do-10",
+    question: "Excusa clásica que inventa un deportista para no hacer sparring",
+    category: "Dojo Humor",
+    answers: [
+      { text: "Se me olvidó el bucal en mi casa", points: 42 },
+      { text: "Me duele la muñeca / tobillo", points: 25 },
+      { text: "Vengo saliendo de una gripa", points: 16 },
+      { text: "Tengo que irme temprano hoy", points: 11 },
+      { text: "No traje vendas limpias", points: 6 },
+    ],
+  },
+  {
+    id: "do-11",
+    question: "¿Qué es lo primero que hace un alumno al llegar a su casa tras entrenar?",
+    category: "Dojo Humor",
+    answers: [
+      { text: "Meterse a bañar inmediatamente", points: 46 },
+      { text: "Comerse todo lo que hay en el refrigerador", points: 28 },
+      { text: "Tirarse en la cama a descansar", points: 14 },
+      { text: "Sacar las vendas apestosas de la maleta", points: 8 },
+      { text: "Tomarse 1 litro de agua fría", points: 4 },
+    ],
+  },
+  {
+    id: "do-12",
+    question: "Golosina o comida de Halloween que comen a escondidas después del entrenamiento",
+    category: "Especial Halloween",
+    answers: [
+      { text: "Chocolates / Paletas", points: 39 },
+      { text: "Pizza con el equipo", points: 28 },
+      { text: "Papas fritas con salsa", points: 17 },
+      { text: "Gomitas de gusanos", points: 11 },
+      { text: "Refresco helado", points: 5 },
+    ],
+  },
+];
